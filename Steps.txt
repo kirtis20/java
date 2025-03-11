@@ -1,0 +1,44 @@
+dynamic web project
+project->java build path-> 1.8
+same for facet
+jsp folder in webapp. create html and respective jsps in the same.
+run as -> download and nstall -> next: check if your project is in the configured section.
+
+
+
+database:
+make html in jsp folder
+make a process.jsp
+import java.sql and java.util in the process file. wite it in the top page section.
+in webinf/lib add jar msql file.
+go to project properties build path and "add jar"
+
+
+ajax:
+json-simple-1.1 in webinf/lib
+
+spring:
+open spring
+right click new project spring starter project 
+next
+package, name should be same (if user-1 then same for all)
+type maven
+java version 17
+next
+lombok, jpa, MySQL, spring web.
+next 
+finish 
+(...wait...)
+src/main/java 
+com.example.user - put files
+1st : User.java (class file)
+2nd: User controller.java (class file)
+new other interface for-
+3rd: UserService.java
+4th: UserRepo.java
+
+new class 
+5th: UserServiceImpl.java
+
+application prop:
+add your connection code
